@@ -1,0 +1,28 @@
+.NoteList {
+  margin: 0;
+  list-style: none;
+  flex: 0 0 25%;
+  max-width: 420px;
+  min-width: 340px;
+  overflow-y: auto; }
+  .NoteList li {
+    margin: 0; }
+    .NoteList li a {
+      padding: 1em;
+      width: 100%;
+      height: 100%;
+      display: block;
+      color: inherit; }
+      .NoteList li a.selected {
+        background: #f2f2f2; }
+      .NoteList li a:hover {
+        text-decoration: none; }
+        .NoteList li a:hover:not(.selected) {
+          background: #fafafa; }
+    .NoteList li.AddNote {
+      text-align: center; }
+    .NoteList li.FindFolder {
+      padding: 1em; }
+      .NoteList li.FindFolder .folderID {
+        margin-top: .5em;
+        display: block; }

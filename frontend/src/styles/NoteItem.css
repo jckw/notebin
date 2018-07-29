@@ -1,0 +1,8 @@
+.NoteItem {
+  line-height: 1.5em; }
+  .NoteItem p {
+    margin: 0; }
+  .NoteItem .TypeIcon {
+    float: left;
+    margin-right: .5em;
+    height: 1.3em; }
