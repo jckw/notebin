@@ -10,7 +10,9 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-feather": "^1.1.1",
+    "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
     "smart-truncate": "^1.0.1",
     "spectre.css": "^0.5.3"
   },
